@@ -21,7 +21,7 @@ public class SearchSteps {
     @Given("^I am on homepage$")
     public void i_am_on_homepage() {
         String actual = headerPage.getCurrentUrl();
-        assertThat(actual, is(endsWith("co.uk/")));
+        assertThat(actual, is(endsWith("co.usa/")));
     }
 
     @When("^I search for a product \"([^\"]*)\"$")
